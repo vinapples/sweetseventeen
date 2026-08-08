@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>A Little Letter</title>
+
+
+    <!-- =========================
+         GOOGLE FONT
+    ========================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         MAIN CONTAINER
+    ========================== -->
+
+    <main class="container">
+
+
+        <!-- =========================
+             LETTER / TEXT BOX
+        ========================== -->
+
+        <section class="letter-box">
+
+
+            <!-- TEXT -->
+
+            <div class="letter-content">
+
+                <p id="paragraph"></p>
+
+            </div>
+
+
+            <!-- =========================
+                 PAGE NUMBER
+            ========================== -->
+
+            <div class="page-number">
+
+                <span id="currentPage">
+                    01
+                </span>
+
+                <span class="slash">
+                    /
+                </span>
+
+                <span id="totalPage">
+                    04
+                </span>
+
+            </div>
+
+
+            <!-- =========================
+                 NEXT BUTTON
+            ========================== -->
+
+            <button
+                id="nextBtn"
+                class="next-btn"
+                aria-label="Next paragraph"
+            >
+
+                →
+
+            </button>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             MUSIC BOX
+        ========================== -->
+
+        <section class="music-box">
+
+
+            <!-- =========================
+                 MUSIC INFORMATION
+            ========================== -->
+
+            <div class="music-left">
+
+
+                <!-- MUSIC ICON -->
+
+                <div class="music-circle">
+
+                    ♪
+
+                </div>
+
+
+                <!-- MUSIC TEXT -->
+
+                <div class="music-info">
+
+                    <h3>
+                        A little music
+                    </h3>
+
+                    <p>
+                        Choose a song to play
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =========================
+                 SPOTIFY BUTTON
+            ========================== -->
+
+            <button
+                id="spotifyBtn"
+                class="spotify-btn"
+                aria-label="Open Spotify"
+                title="Open Spotify"
+            >
+
+                +
+
+            </button>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
